@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+main {
+    width: 35%;
+    margin: auto;
+}
+
+main input {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0px;
+}
+
+.coin-list {
+    margin-top: 20px;
+    height: 70vh;
+    align-content: center;
+    overflow: hidden;
+    padding: 20px;
+    overflow-y: scroll;
+    /* background-color: red; */
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.coin-list p {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(91, 91, 91);
+}
+
+
+.coin-item {
+    box-shadow: 1px 1px 6px grey;
+    padding: 12px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.coin-item .coin-action {
+    margin-left: auto;
+}
+
+.coin-item h4 {
+    margin-bottom: 7px;
+}
+
+.coin-item .coin-action button,
+.page-buttons button,
+.btn {
+    background-color: plum;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px silver;
+    color: white;
+
+}
+
+.page-buttons {
+    display: flex;
+}
+
+.page-buttons button,
+.btn {
+    background-color: black;
+    border: none;
+}
+
+.coin-item .coin-action button:hover {
+    background-color: rgb(225, 73, 225);
+}
+
+.page-buttons .prev {
+    margin-right: auto;
+}
+
+
+.page-desc {
+    display: flex;
+    margin-top: 20px;
+}
+
+.page-desc .left {
+    margin-right: auto;
+}
+
+@media (max-width:500px) {
+    main {
+        width: 100%;
+        padding: 12px;
+    }
+}
